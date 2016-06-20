@@ -5,7 +5,7 @@ onmessage = function(e) {
     runPrimes();
 };
 
-runPrimes = function() {
+function runPrimes() {
     var n = 1, i = 2;
 
     primes: while (true) {
